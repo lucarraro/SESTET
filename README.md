@@ -5,7 +5,7 @@ Carraro, L., Toffolon, M., Rinaldo, A., Bertuzzo, E. (2019). SESTET: a Spatially
 ## Main files
 - `RUN_AM.m` calibrates the temperature model via the Adaptive Metropolis algorithm. The model type can be chosen by appropriately setting variable `ModelType`; the calibration subset can be chosen by appropriately setting variable `SimType`.
 - `RUN_PSO.m` calibrates the temperature model via the Particle Swarm Optimization algorithm. The model type can be chosen by appropriately setting variable `ModelType`; the calibration subset can be chosen by appropriately setting variable `SimType`.
-- `MAIN.m` analyses model simulations and produces the same figures that are displayed in Carraro et al., Hydrol. Process. (2019) (hereafter: CHP)
+- `MAIN.m` analyses model simulations and produces the same figures that are displayed in Carraro et al., (2019). Hydrol. Process. (hereafter: CHP)
 
 Scripts `RUN_AM.m` and `RUN_PSO.m` generate output files whose generic name  is `*ModelType*_*SimType*_*AlgorithmType*.mat`. In order to be read by `MAIN.m`, these need to be copied into folder "results", and the `_*AlgorithmType*` part of their name (namely, `_AM` or `_PSO`) must be deleted.
 
