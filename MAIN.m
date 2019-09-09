@@ -156,7 +156,7 @@ catch
             tmp2=tmp2(:); obs2=obs2(:); tmp3=[tmp; tmp2]; obs3=[obs; obs2];
         end
     end
-    save('BestModels.mat','Sestet','Local','Flat','Equil')
+    save('utilities/BestModels.mat','Sestet','Local','Flat','Equil')
 end
 
 %% plot posterior distribution
