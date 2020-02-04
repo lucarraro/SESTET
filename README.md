@@ -1,6 +1,6 @@
 # SESTET
 Code and data supporting 
-Carraro, L., Toffolon, M., Rinaldo, A., Bertuzzo, E. (2020). SESTET: a Spatially-Explicit Stream Temperature model based on Equilibrium Temperature. *Hydrological Processes*, 34(2), 355-369. doi:10.1002/hyp.13591 
+Carraro, L., Toffolon, M., Rinaldo, A., Bertuzzo, E. (2020). SESTET: a spatially explicit stream temperature model based on equilibrium temperature. *Hydrological Processes*, 34(2), 355-369. doi:10.1002/hyp.13591 
 
 ## Main files
 - `RUN_AM.m` calibrates the temperature model via the Adaptive Metropolis algorithm. The model type can be chosen by appropriately setting variable `ModelType`; the calibration subset can be chosen by appropriately setting variable `SimType`.
